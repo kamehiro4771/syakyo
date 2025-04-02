@@ -6,7 +6,7 @@
             "name": "C/C++: gcc.exe アクティブ ファイルのビルドとデバッグ",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/List1-7.exe",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
             "args": [
                 "-NoExit",
                 "-Command",

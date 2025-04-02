@@ -1,10 +1,11 @@
 //1,2,…nの総和を求める（do文によって正の整数値のみをnに読み込む）
 #include <stdio.h>
+#include<locale.h>
 
 int main(void)
 {
     int n;
-    puts("1からnまでの総和を求めます。");
+    puts("１からnまでの総和を求めます。");
     do{
         printf("nの値：");
         scanf("%d",&n);
@@ -12,7 +13,7 @@ int main(void)
     int sum = 0;
     for(int i = 1; i <= n;i++)
         sum += i;
-    printf("1から%dまでの総和は%dです。\n",n,sum);
+    printf("1から%d までの総和は%d\nです。",n,sum);
     return 0;
 }
 /*
